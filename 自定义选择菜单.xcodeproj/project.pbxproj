@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2250E61C34D25A0058CA69 /* NKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250E51C34D25A0058CA69 /* NKNavigationController.m */; };
+		1B2250EA1C34D41A0058CA69 /* NKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250E91C34D41A0058CA69 /* NKConst.m */; };
+		1B2250ED1C34F0500058CA69 /* NKTagTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250EC1C34F0500058CA69 /* NKTagTitleModel.m */; };
+		1B2250F01C34F35C0058CA69 /* NKTagTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250EF1C34F35C0058CA69 /* NKTagTitleCell.m */; };
+		1B2250F31C34F37C0058CA69 /* NKPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250F21C34F37C0058CA69 /* NKPageCell.m */; };
+		1B2250F61C34FACE0058CA69 /* NKScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2250F51C34FACE0058CA69 /* NKScrollPageController.m */; };
+		1B227DAE1C33C3FD0050A05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B227DAD1C33C3FD0050A05E /* main.m */; };
+		1B227DB11C33C3FD0050A05E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B227DB01C33C3FD0050A05E /* AppDelegate.m */; };
+		1B227DB41C33C3FD0050A05E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B227DB31C33C3FD0050A05E /* ViewController.m */; };
+		1B227DB91C33C3FD0050A05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B227DB81C33C3FD0050A05E /* Assets.xcassets */; };
+		1B227DBC1C33C3FD0050A05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B227DBA1C33C3FD0050A05E /* LaunchScreen.storyboard */; };
+		1B227DC71C33C3FD0050A05E /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B227DC61C33C3FD0050A05E /* _______UITests.m */; };
+		1B3CB4DF1C3A362100C4C6DF /* NKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3CB4DE1C3A362100C4C6DF /* NKViewController.m */; };
+		1B3F3F6A1C3F918300018A81 /* NKCustomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F3F691C3F918300018A81 /* NKCustomMenuView.m */; };
+		1B3F3F6D1C3FA4C000018A81 /* NKMenuCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3F3F6C1C3FA4C000018A81 /* NKMenuCollCell.m */; };
+		1BE83A821C44E2D700D24236 /* NKDragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE83A811C44E2D700D24236 /* NKDragButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B227DC31C33C3FD0050A05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B227DA11C33C3FD0050A05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B227DA81C33C3FD0050A05E;
+			remoteInfo = "自定义选择菜单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2250E41C34D25A0058CA69 /* NKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKNavigationController.h; sourceTree = "<group>"; };
+		1B2250E51C34D25A0058CA69 /* NKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKNavigationController.m; sourceTree = "<group>"; };
+		1B2250E81C34D41A0058CA69 /* NKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKConst.h; sourceTree = "<group>"; };
+		1B2250E91C34D41A0058CA69 /* NKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKConst.m; sourceTree = "<group>"; };
+		1B2250EB1C34F0500058CA69 /* NKTagTitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTagTitleModel.h; sourceTree = "<group>"; };
+		1B2250EC1C34F0500058CA69 /* NKTagTitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTagTitleModel.m; sourceTree = "<group>"; };
+		1B2250EE1C34F35C0058CA69 /* NKTagTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTagTitleCell.h; sourceTree = "<group>"; };
+		1B2250EF1C34F35C0058CA69 /* NKTagTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTagTitleCell.m; sourceTree = "<group>"; };
+		1B2250F11C34F37C0058CA69 /* NKPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPageCell.h; sourceTree = "<group>"; };
+		1B2250F21C34F37C0058CA69 /* NKPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPageCell.m; sourceTree = "<group>"; };
+		1B2250F41C34FACE0058CA69 /* NKScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKScrollPageController.h; sourceTree = "<group>"; };
+		1B2250F51C34FACE0058CA69 /* NKScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKScrollPageController.m; sourceTree = "<group>"; };
+		1B227DA91C33C3FD0050A05E /* 自定义选择菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义选择菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B227DAD1C33C3FD0050A05E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B227DAF1C33C3FD0050A05E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B227DB01C33C3FD0050A05E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B227DB21C33C3FD0050A05E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B227DB31C33C3FD0050A05E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B227DB81C33C3FD0050A05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B227DBB1C33C3FD0050A05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B227DBD1C33C3FD0050A05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B227DC21C33C3FD0050A05E /* 自定义选择菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义选择菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B227DC61C33C3FD0050A05E /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		1B227DC81C33C3FD0050A05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3CB4DD1C3A362100C4C6DF /* NKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKViewController.h; sourceTree = "<group>"; };
+		1B3CB4DE1C3A362100C4C6DF /* NKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKViewController.m; sourceTree = "<group>"; };
+		1B3F3F681C3F918300018A81 /* NKCustomMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKCustomMenuView.h; sourceTree = "<group>"; };
+		1B3F3F691C3F918300018A81 /* NKCustomMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCustomMenuView.m; sourceTree = "<group>"; };
+		1B3F3F6B1C3FA4C000018A81 /* NKMenuCollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKMenuCollCell.h; sourceTree = "<group>"; };
+		1B3F3F6C1C3FA4C000018A81 /* NKMenuCollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKMenuCollCell.m; sourceTree = "<group>"; };
+		1BE83A801C44E2D700D24236 /* NKDragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDragButton.h; sourceTree = "<group>"; };
+		1BE83A811C44E2D700D24236 /* NKDragButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKDragButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B227DA61C33C3FD0050A05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B227DBF1C33C3FD0050A05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2250E71C34D3FA0058CA69 /* NKScrollPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1B2250F41C34FACE0058CA69 /* NKScrollPageController.h */,
+				1B2250F51C34FACE0058CA69 /* NKScrollPageController.m */,
+				1B2250E81C34D41A0058CA69 /* NKConst.h */,
+				1B2250E91C34D41A0058CA69 /* NKConst.m */,
+				1B2250EB1C34F0500058CA69 /* NKTagTitleModel.h */,
+				1B2250EC1C34F0500058CA69 /* NKTagTitleModel.m */,
+				1B2250EE1C34F35C0058CA69 /* NKTagTitleCell.h */,
+				1B2250EF1C34F35C0058CA69 /* NKTagTitleCell.m */,
+				1B2250F11C34F37C0058CA69 /* NKPageCell.h */,
+				1B2250F21C34F37C0058CA69 /* NKPageCell.m */,
+			);
+			path = NKScrollPageController;
+			sourceTree = "<group>";
+		};
+		1B227DA01C33C3FD0050A05E = {
+			isa = PBXGroup;
+			children = (
+				1B227DAB1C33C3FD0050A05E /* 自定义选择菜单 */,
+				1B227DC51C33C3FD0050A05E /* 自定义选择菜单UITests */,
+				1B227DAA1C33C3FD0050A05E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B227DAA1C33C3FD0050A05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B227DA91C33C3FD0050A05E /* 自定义选择菜单.app */,
+				1B227DC21C33C3FD0050A05E /* 自定义选择菜单UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B227DAB1C33C3FD0050A05E /* 自定义选择菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				1B227DAF1C33C3FD0050A05E /* AppDelegate.h */,
+				1B227DB01C33C3FD0050A05E /* AppDelegate.m */,
+				1B2250E41C34D25A0058CA69 /* NKNavigationController.h */,
+				1B2250E51C34D25A0058CA69 /* NKNavigationController.m */,
+				1B227DB21C33C3FD0050A05E /* ViewController.h */,
+				1B227DB31C33C3FD0050A05E /* ViewController.m */,
+				1B3CB4DD1C3A362100C4C6DF /* NKViewController.h */,
+				1B3CB4DE1C3A362100C4C6DF /* NKViewController.m */,
+				1B3F3F671C3F915900018A81 /* CustomMenu */,
+				1B2250E71C34D3FA0058CA69 /* NKScrollPageController */,
+				1B227DB81C33C3FD0050A05E /* Assets.xcassets */,
+				1B227DBA1C33C3FD0050A05E /* LaunchScreen.storyboard */,
+				1B227DBD1C33C3FD0050A05E /* Info.plist */,
+				1B227DAC1C33C3FD0050A05E /* Supporting Files */,
+			);
+			path = "自定义选择菜单";
+			sourceTree = "<group>";
+		};
+		1B227DAC1C33C3FD0050A05E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B227DAD1C33C3FD0050A05E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B227DC51C33C3FD0050A05E /* 自定义选择菜单UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B227DC61C33C3FD0050A05E /* _______UITests.m */,
+				1B227DC81C33C3FD0050A05E /* Info.plist */,
+			);
+			path = "自定义选择菜单UITests";
+			sourceTree = "<group>";
+		};
+		1B3F3F671C3F915900018A81 /* CustomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1B3F3F681C3F918300018A81 /* NKCustomMenuView.h */,
+				1B3F3F691C3F918300018A81 /* NKCustomMenuView.m */,
+				1BE83A801C44E2D700D24236 /* NKDragButton.h */,
+				1BE83A811C44E2D700D24236 /* NKDragButton.m */,
+				1B3F3F6B1C3FA4C000018A81 /* NKMenuCollCell.h */,
+				1B3F3F6C1C3FA4C000018A81 /* NKMenuCollCell.m */,
+			);
+			path = CustomMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B227DA81C33C3FD0050A05E /* 自定义选择菜单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B227DCB1C33C3FD0050A05E /* Build configuration list for PBXNativeTarget "自定义选择菜单" */;
+			buildPhases = (
+				1B227DA51C33C3FD0050A05E /* Sources */,
+				1B227DA61C33C3FD0050A05E /* Frameworks */,
+				1B227DA71C33C3FD0050A05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义选择菜单";
+			productName = "自定义选择菜单";
+			productReference = 1B227DA91C33C3FD0050A05E /* 自定义选择菜单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B227DC11C33C3FD0050A05E /* 自定义选择菜单UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B227DCE1C33C3FD0050A05E /* Build configuration list for PBXNativeTarget "自定义选择菜单UITests" */;
+			buildPhases = (
+				1B227DBE1C33C3FD0050A05E /* Sources */,
+				1B227DBF1C33C3FD0050A05E /* Frameworks */,
+				1B227DC01C33C3FD0050A05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B227DC41C33C3FD0050A05E /* PBXTargetDependency */,
+			);
+			name = "自定义选择菜单UITests";
+			productName = "自定义选择菜单UITests";
+			productReference = 1B227DC21C33C3FD0050A05E /* 自定义选择菜单UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B227DA11C33C3FD0050A05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "聂宽";
+				TargetAttributes = {
+					1B227DA81C33C3FD0050A05E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1B227DC11C33C3FD0050A05E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1B227DA81C33C3FD0050A05E;
+					};
+				};
+			};
+			buildConfigurationList = 1B227DA41C33C3FD0050A05E /* Build configuration list for PBXProject "自定义选择菜单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B227DA01C33C3FD0050A05E;
+			productRefGroup = 1B227DAA1C33C3FD0050A05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B227DA81C33C3FD0050A05E /* 自定义选择菜单 */,
+				1B227DC11C33C3FD0050A05E /* 自定义选择菜单UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B227DA71C33C3FD0050A05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B227DBC1C33C3FD0050A05E /* LaunchScreen.storyboard in Resources */,
+				1B227DB91C33C3FD0050A05E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B227DC01C33C3FD0050A05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B227DA51C33C3FD0050A05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2250ED1C34F0500058CA69 /* NKTagTitleModel.m in Sources */,
+				1BE83A821C44E2D700D24236 /* NKDragButton.m in Sources */,
+				1B2250E61C34D25A0058CA69 /* NKNavigationController.m in Sources */,
+				1B2250F61C34FACE0058CA69 /* NKScrollPageController.m in Sources */,
+				1B3F3F6D1C3FA4C000018A81 /* NKMenuCollCell.m in Sources */,
+				1B3CB4DF1C3A362100C4C6DF /* NKViewController.m in Sources */,
+				1B2250EA1C34D41A0058CA69 /* NKConst.m in Sources */,
+				1B227DB41C33C3FD0050A05E /* ViewController.m in Sources */,
+				1B3F3F6A1C3F918300018A81 /* NKCustomMenuView.m in Sources */,
+				1B227DB11C33C3FD0050A05E /* AppDelegate.m in Sources */,
+				1B2250F31C34F37C0058CA69 /* NKPageCell.m in Sources */,
+				1B227DAE1C33C3FD0050A05E /* main.m in Sources */,
+				1B2250F01C34F35C0058CA69 /* NKTagTitleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B227DBE1C33C3FD0050A05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B227DC71C33C3FD0050A05E /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B227DC41C33C3FD0050A05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B227DA81C33C3FD0050A05E /* 自定义选择菜单 */;
+			targetProxy = 1B227DC31C33C3FD0050A05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B227DBA1C33C3FD0050A05E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B227DBB1C33C3FD0050A05E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B227DC91C33C3FD0050A05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B227DCA1C33C3FD0050A05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B227DCC1C33C3FD0050A05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义选择菜单/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nk.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B227DCD1C33C3FD0050A05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义选择菜单/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nk.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B227DCF1C33C3FD0050A05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义选择菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nk.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义选择菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B227DD01C33C3FD0050A05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义选择菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nk.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义选择菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B227DA41C33C3FD0050A05E /* Build configuration list for PBXProject "自定义选择菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B227DC91C33C3FD0050A05E /* Debug */,
+				1B227DCA1C33C3FD0050A05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B227DCB1C33C3FD0050A05E /* Build configuration list for PBXNativeTarget "自定义选择菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B227DCC1C33C3FD0050A05E /* Debug */,
+				1B227DCD1C33C3FD0050A05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B227DCE1C33C3FD0050A05E /* Build configuration list for PBXNativeTarget "自定义选择菜单UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B227DCF1C33C3FD0050A05E /* Debug */,
+				1B227DD01C33C3FD0050A05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B227DA11C33C3FD0050A05E /* Project object */;
+}
