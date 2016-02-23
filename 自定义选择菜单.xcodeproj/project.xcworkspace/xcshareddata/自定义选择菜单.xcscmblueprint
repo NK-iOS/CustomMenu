@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7DD2D14071B8BF5295FD412CA6E59C60262A6E2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B7D2F496DDC6CE9A7B7EA9E50A8396F73657FE6C" : 0,
+    "7DD2D14071B8BF5295FD412CA6E59C60262A6E2F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9B67307A-D177-4A78-A9D4-E3A73E3F56B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B7D2F496DDC6CE9A7B7EA9E50A8396F73657FE6C" : "",
+    "7DD2D14071B8BF5295FD412CA6E59C60262A6E2F" : "%E8%87%AA%E5%AE%9A%E4%B9%89%E9%80%89%E6%8B%A9%E8%8F%9C%E5%8D%95\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "自定义选择菜单",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "自定义选择菜单.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NK-iOS\/CustomMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DD2D14071B8BF5295FD412CA6E59C60262A6E2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NK-iOS\/CustomMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B7D2F496DDC6CE9A7B7EA9E50A8396F73657FE6C"
+    }
+  ]
+}
